@@ -1,4 +1,4 @@
-open findfix folder on your code editor and Run app.py then open url (in terminal) to run and test the web application on port 8000
+Run app.py then open url (in terminal) to run and test the web application on port 8000
 -----------------------------------------------------------
 search.py is the main search function used in the app
 tfidfwriter.py  (indexation function ) calculates the movies.json scores and writes it in tfidf.json
