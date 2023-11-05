@@ -1,10 +1,9 @@
-Run app.py then open url (in terminal) to run and test the web application on port 8000
+Run app.py then open url to test the web app
 -----------------------------------------------------------
 search.py is the main search function used in the app
 tfidfwriter.py  (indexation function ) calculates the movies.json scores and writes it in tfidf.json
 views.py generates the result page
-the project structure is exaggerated by flask
-you can use other json files and run them into tfidfwriter.py to use the search engine for other purposes
+you can use other json files and run them into tfidfwriter.py to use the search engine for other databases
 -----------------------------------------------------------
 work by : 
 Rayen Hassen  ---rayenhassen00@gmail.com
