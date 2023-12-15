@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&display=swap');
+
+:root {
+    --black: #000000;
+    --brownblack: #3E3636;
+    --red: #D72323;
+    --white: #F5EDED;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    
+}
+
+body {
+    background-color: var(--black);
+    background-image: url(/static/images/cinema.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+    height: 100%;
+   
+}
+
+.logo {
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+    width: fit-content;
+}
+
+.main_container p {
+    color: #D72323;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 7.5rem;
+    font-weight: 700;
+    margin-right: -2.5rem;
+}
+
+.main_container img {
+    width: 22rem;
+}
+
+.search_bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin-top: 8rem;
+}
+
+.search_bar input[type=text] {
+    padding: 10px;
+    border-radius: 3rem 0 0 3rem;
+    font-size: 17px;
+    border: 2px solid var(--brownblack);
+    float: left;
+    width: 80%;
+    background: var(--white);
+    border-right: none;
+    max-width: 30rem;
+  }
+
+.search_bar input:focus {
+    outline: none;
+}
+
+.search_bar button {
+    border-radius: 0 3rem 3rem 0;
+    float: left;
+    width: 4rem;
+    padding: 10px;
+    background: var(--red);
+    color: white;
+    font-size: 17px;
+    border: 2px solid var(--brownblack);
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
